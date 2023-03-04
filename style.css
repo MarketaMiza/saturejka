@@ -5,7 +5,40 @@ html {
   font-size: 15px;
 }
 
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+}
+
+html {
+    font-size: 100%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+
+    --scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    scroll-padding-top: 10rem;
+}
+
+body {
+    color: #fff;
+    background-color: #ffefef;
+    font-family:'Bebas Neue', Tahoma, Verdana, sans-serif;
+    margin: 0;
+
+    overflow: hidden;
+    overflow-y: auto;
+}
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-size: 4vh;
 }
