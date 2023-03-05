@@ -46,5 +46,32 @@ h3 {
     font-size: 2vh;
 }
  section {
+  margin: 50px auto;
   background-color: #FFFFFF;
  }
+
+a {
+  color: inherit;
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  margin: 1rem 0 0;
+  text-shadow: 1px 1px 0 black;
+}
+
+
+figure {
+  margin: 0;
+}
+
+
